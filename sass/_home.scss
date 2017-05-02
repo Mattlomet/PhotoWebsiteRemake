@@ -3,21 +3,21 @@
 	text-align: center;
 	.menu{
 		display: inline;
-		margin-right: 28%;
+		
 		font-size: 32px;
 	}
 	.logo{
 		display: inline;
-		margin-left: 15%;
-		margin-right: 25%;
+		margin-left: 40%;
+		margin-right: 35%;
 		font-size: 50px;
 		font-family: $lato-text;
 	}
 	.social-media{
-		margin-left: 9%;
 		display: inline;
 	}
 	#upperList{
+		padding: 0;
 		display: inline;
 	}
 	#socMedia{
@@ -28,16 +28,36 @@
 		width: 35px;
 	}
 }
-.main-content{
-
+#main-content{
+	.col-md-4{
+		margin-top: 10px;
+		text-align: center;
+		#mainImage{
+			height: 600px;
+			width: 400px;
+		}
+		.date{
+			font-family:$slabo-text;
+			font-size: 12px;
+		}
+		.title{
+			font-family:$lato-text;
+			font-size: 24px;
+		}
+		.category{
+			font-family:$slabo-text;
+			font-size: 16px;
+		}
+	}
 }
+
 .footer{
-	border-top: 2px solid lightgrey;
 	text-align: center;
 	.upper{
 		font-family: $lato-text;
 		color: black;
 		.subscribe{
+			display: inline-block;
 			font-size: 32px;
 		}
 		.updates{
@@ -85,4 +105,87 @@
 			display: inline;
 		}
 	}	
+}
+
+#dropDownMenu{
+	display: none;
+	margin-top: 10px;
+    position: absolute;
+    background: white;
+    font-size: 24px;
+    z-index: 1;
+    float: left;
+    width: 250px;
+    height: 200px;
+    ul{
+    	padding:0;
+    }
+    #closeOut{
+    	float: left;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+	.header{
+	margin-top:10px;
+	text-align: center;
+	.menu{
+		display: inline;
+		margin-right: 10%;
+		font-size: 32px;
+	}
+	.logo{
+		display: inline;
+		margin-left: 30%;
+		margin-right: 30%;
+		font-size: 50px;
+		font-family: $lato-text;
+	}
+	.social-media{
+		display: inline;
+	}
+	#upperList{
+		display: inline;
+	}
+	#socMedia{
+		display: inline;
+	}
+	img{
+		height: 35px;
+		width: 35px;
+	}
+}
+}
+
+@media only screen and (max-width: 900px){
+	
+	.header{
+		margin-top:10px;
+		text-align: center;
+	.menu{
+		display: inline;
+		margin-right: 15%;
+		font-size: 32px;
+	}
+	.logo{
+		display: inline;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 50px;
+		font-family: $lato-text;
+	}
+	.social-media{
+		display: inline;
+	}
+	#upperList{
+		display: inline;
+	}
+	#socMedia{
+		display: inline;
+	}
+	img{
+		height: 35px;
+		width: 35px;
+	}
+}
 }

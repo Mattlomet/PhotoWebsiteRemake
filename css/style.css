@@ -10,18 +10,17 @@ ul {
   text-align: center; }
   .header .menu {
     display: inline;
-    margin-right: 28%;
     font-size: 32px; }
   .header .logo {
     display: inline;
-    margin-left: 15%;
-    margin-right: 25%;
+    margin-left: 40%;
+    margin-right: 35%;
     font-size: 50px;
     font-family: "Lato", sans-serif; }
   .header .social-media {
-    margin-left: 9%;
     display: inline; }
   .header #upperList {
+    padding: 0;
     display: inline; }
   .header #socMedia {
     display: inline; }
@@ -29,13 +28,29 @@ ul {
     height: 35px;
     width: 35px; }
 
+#main-content .col-md-4 {
+  margin-top: 10px;
+  text-align: center; }
+  #main-content .col-md-4 #mainImage {
+    height: 600px;
+    width: 400px; }
+  #main-content .col-md-4 .date {
+    font-family: "Slabo 27px", serif;
+    font-size: 12px; }
+  #main-content .col-md-4 .title {
+    font-family: "Lato", sans-serif;
+    font-size: 24px; }
+  #main-content .col-md-4 .category {
+    font-family: "Slabo 27px", serif;
+    font-size: 16px; }
+
 .footer {
-  border-top: 2px solid lightgrey;
   text-align: center; }
   .footer .upper {
     font-family: "Lato", sans-serif;
     color: black; }
     .footer .upper .subscribe {
+      display: inline-block;
       font-size: 32px; }
     .footer .upper .updates {
       font-size: 16px; }
@@ -67,5 +82,67 @@ ul {
       padding: 0; }
     .footer .lower #lowerListItems {
       display: inline; }
+
+#dropDownMenu {
+  display: none;
+  margin-top: 10px;
+  position: absolute;
+  background: white;
+  font-size: 24px;
+  z-index: 1;
+  float: left;
+  width: 250px;
+  height: 200px; }
+  #dropDownMenu ul {
+    padding: 0; }
+  #dropDownMenu #closeOut {
+    float: left; }
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    margin-top: 10px;
+    text-align: center; }
+    .header .menu {
+      display: inline;
+      margin-right: 10%;
+      font-size: 32px; }
+    .header .logo {
+      display: inline;
+      margin-left: 30%;
+      margin-right: 30%;
+      font-size: 50px;
+      font-family: "Lato", sans-serif; }
+    .header .social-media {
+      display: inline; }
+    .header #upperList {
+      display: inline; }
+    .header #socMedia {
+      display: inline; }
+    .header img {
+      height: 35px;
+      width: 35px; } }
+@media only screen and (max-width: 900px) {
+  .header {
+    margin-top: 10px;
+    text-align: center; }
+    .header .menu {
+      display: inline;
+      margin-right: 15%;
+      font-size: 32px; }
+    .header .logo {
+      display: inline;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-size: 50px;
+      font-family: "Lato", sans-serif; }
+    .header .social-media {
+      display: inline; }
+    .header #upperList {
+      display: inline; }
+    .header #socMedia {
+      display: inline; }
+    .header img {
+      height: 35px;
+      width: 35px; } }
 
 /*# sourceMappingURL=style.css.map */
