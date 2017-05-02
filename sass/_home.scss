@@ -1,0 +1,88 @@
+.header{
+	margin-top:10px;
+	text-align: center;
+	.menu{
+		display: inline;
+		margin-right: 28%;
+		font-size: 32px;
+	}
+	.logo{
+		display: inline;
+		margin-left: 15%;
+		margin-right: 25%;
+		font-size: 50px;
+		font-family: $lato-text;
+	}
+	.social-media{
+		margin-left: 9%;
+		display: inline;
+	}
+	#upperList{
+		display: inline;
+	}
+	#socMedia{
+		display: inline;
+	}
+	img{
+		height: 35px;
+		width: 35px;
+	}
+}
+.main-content{
+
+}
+.footer{
+	border-top: 2px solid lightgrey;
+	text-align: center;
+	.upper{
+		font-family: $lato-text;
+		color: black;
+		.subscribe{
+			font-size: 32px;
+		}
+		.updates{
+			font-size: 16px;
+		}
+		.email-signup{
+			padding: 20px;
+			#signUpButton{
+				display: inline;
+				padding: 10px;
+				margin-left: 10px;
+				background-color: black;
+				color: white;
+				border-radius: 10%;
+			}
+		}
+		.lower-social-media{
+			display: inline;
+			.lower-insta{
+				display: inline;
+				img{
+					height: 35px;
+					width: 35px;
+				}
+
+			}
+			.lower-twitter{
+				display: inline;
+				img{
+					height: 35px;
+					width: 35px;
+				}
+			}
+		}	
+	}	
+
+
+	.lower{
+		font-family: $lato-text;
+		font-size: 16px;
+		.lower-list{
+			padding: 0;
+		}
+		#lowerListItems{
+			display: inline;
+		}
+	}	
+}
